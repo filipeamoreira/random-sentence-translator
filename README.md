@@ -1,7 +1,7 @@
 Google Chrome Extension
 =======================
 
-Google chrome extensio that translates random sentences from a page into selected language.
+Google chrome extension that translates random sentences from a page into selected language.
 
 TODO
 ====
