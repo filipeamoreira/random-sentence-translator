@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<script>
+  chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) {
+    if (request.sentence){
+      console.log(request.sentence);
+      sendResponse({sentence: 'blah blah blah'});
+    } else {
+      sendResponse({});
+    }
+  });
+</script>
+</head>
+</html>
